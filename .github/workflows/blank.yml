@@ -43,5 +43,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           xcodebuild -version
+          mktemp -d -t mbox
           echo Add other actions to build,
           echo test, and deploy your project.
